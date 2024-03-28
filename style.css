@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    position: fixed;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2vw 10.4vw;
+    justify-content: space-between;
+}
+
+.nav-part2{
+    display: flex;
+    gap: 2vw;
+}
+
+nav button{
+    background-color: #0DA34E;
+    display: flex;
+    align-items: center;
+    padding: 3px 6px;
+    border-radius: 50px;
+    font-size: 1vw;
+    font-weight: 700;
+    border: none;
+}
+
+nav button svg{
+    height: 2.8vw;
+}
+
+nav:hover #nav-bottom{
+    height: 150%;
+    bottom: -120%;
+    background-color: #111;
+    
+}
+
+#nav-bottom{
+    
+    height: 0%;
+    width: 79%;
+    position: absolute;
+    bottom: 0%;
+    transition: all ease-in 1s;
+    border-bottom: 1px solid #dadada;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2vw 15vw;
+    padding-left: 18.2vw;
+    
+}
+
+.bottom-div{
+    margin-top: 2vw;
+}
+.bottom-div h5 span{
+    font-size: 0.75;
+    font-weight: 500;
+    display: inline-block;
+    opacity: 0;
+}
+
+.bottom-div h5{
+    overflow: hidden;
+    margin-bottom: 0.4vw;
+}
+
+.nav-part2 h4{
+    font-weight: 600;
+    font-size: 0.76vw;
+    text-transform: uppercase;
+}
+
+#page-1{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#page-1 h1{
+    font-size: 8.5vw;
+    font-weight: 900;
+    line-height: 8.5vw;
+}
+
+#page-1 h1 svg{
+    height: 6vw;
+    width: 6vw;
+    background-color: #0DA34E;
+    border-radius: 50%;
+}
+
+#page-1 p{
+    font-weight: 400;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+#page1-something{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+    
+}
+
+#page1-something h4{
+    padding: 4px 10px;
+    font-weight: 400;
+    font-size: 1vw;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+#page1-something h4:nth-last-child(2){
+    border: none;
+}
+
+#page-2{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+}
